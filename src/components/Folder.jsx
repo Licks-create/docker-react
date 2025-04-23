@@ -41,7 +41,7 @@ const Folder = ({ fileData }) => {
     setOpenForm(true);
   };
   return (
-    <div className=" flex flex-col gap-2 ">
+    <div className=" flex flex-col gap-2 h-[100vh] justify-center items-center">
       <div className=" flex gap-2 ">
         <div
           className=" w-[200px] h-[100px] text-4xl flex justify-center items-center cursor-pointer"
